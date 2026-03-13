@@ -66,6 +66,22 @@ The raw data is processed and transformed:
 | 201 – 300 | 🟣 Very Unhealthy |
 | 301+ | ⚫ Hazardous |
 
+### 3️⃣ Load
+The transformed data is then **loaded into a PostgreSQL database** for structured storage and further analysis.
+
+During this step, the processed dataset containing the following fields is inserted into a PostgreSQL table:
+
+- **State**
+- **City**
+- **Latitude**
+- **Longitude**
+- **AQI**
+- **NO₂**
+- **CO**
+- **Other pollutant parameters**
+
+This step ensures that the data is **stored in a structured relational format**, making it easy to query, analyze, and connect with **Power BI for dashboard creation**.
+
 ---
 
 ## 📊 Visualization

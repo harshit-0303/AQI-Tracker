@@ -94,6 +94,12 @@ Power BI connects to the PostgreSQL database to:
 - Monitor **pollution levels and pollutant distribution**
 
 ---
+## 📊 Project Dashboard Preview
+
+<p align="center">
+  <img src="https://ik.imagekit.io/vtwmik0pw/Screenshot%202026-03-12%20005747.png" alt="AQI Dashboard" width="900"/>
+</p>
+
 
 ## 📈 Dashboard Insights
 
